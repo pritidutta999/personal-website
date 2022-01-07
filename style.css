@@ -23,6 +23,11 @@ section{
     margin: 0cm;
     align-items: center;
 }
+.stay{
+    border-left: 5px solid;
+    padding-right: 30%;
+    margin-right: 3px;
+}
 .redo{
     margin-top: 15px;
     padding-left: 10%;
@@ -30,16 +35,60 @@ section{
     font-size: 0.60cm;
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    padding-left: 10%;
 }
-.half-width2{
-    width: 50%;
-    padding-left: 5%;  
+.muskateer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(209, 250, 244);
+}
+.wasy{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 217, 245);
+}
+.kasy{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(245, 236, 199);
+}
+.kasy img{
+    width: 60%;
+    padding-top: 5%;    
+    display: flex; 
+    justify-content: center; 
+}
+.wasy img{
+    width: 60%;
+    padding-top: 5%;    
+    display: flex; 
+    justify-content: center; 
+}
+.muskateer img{
+    width: 60%;
+    padding-top: 5%;    
+    display: flex; 
+    justify-content: center;  
+}
+.third-banner{
+    border-radius: 5px;
 }
 .developer-img{
     width: 70%;
-    padding top: 50%;
+    padding top: 5%;
     padding-bottom: 10%;
     padding-right: 15%;
     margin: 0%;
@@ -51,21 +100,14 @@ section{
     padding-bottom: 25%;
     align-items: left;
 }
-.developer{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
 .second-banner{
     justify-content: center;
     margin-top: 0%;
 
 }
 .half-width img{
-     width: 80%;
-     text-align: center;
-     position: relative;
-     padding-bottom: 10%;    
+     width: 60%;
+     padding-top: 5%;    
      display: flex; 
      justify-content: center;
 }
@@ -77,16 +119,14 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
 }
-.third-banner{
-margin-top: 20%;
-margin: 0;
-padding-top: 20;%
-text-align: left;
-}
 
 .fourth-banner{
     background-image: url(images/shapes/shape-1.png);
     background-position-y: 50px;
+    background-position-x: 7%;
     background-size: 150px;
     background-repeat: no-repeat;
+}
+footer p{
+    text-align: center;
 }
