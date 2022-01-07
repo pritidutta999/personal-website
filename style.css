@@ -1,26 +1,96 @@
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font size: 40px;
     margin: 0%;
 }
 h1{
-    font: 50px;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
 }
+h2{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
 .pink-color{
     color: deeppink;
 }
-section{
-    display: flex ;
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    margin: 0cm;
+    align-items: center;
+}
+.redo{
+    margin-top: 15px;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 0.60cm;
 }
 .half-width{
     width: 80%;
-    padding-left: 5%;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 25%;
+    margin-top: 0%;
+    position: relative;
+}
+.developer-img{
+    width: 70%;
+    padding top: 50%;
+    padding-bottom: 10%;
+    padding-right: 15%;
+    margin: 0%;
+}
+.develop{
+    width: 70%;
+    padding-left:3%;
+    padding-top: 5%;
+    padding-bottom: 25%;
+    align-items: left;
+}
+.developer{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.second-banner{
+    text-align: center;
+    margin-top: -25%;
 }
 .half-width img{
-width: 80%;
-padding-bottom: 50%;
-padding-right: 5%;
+     width: 60%;
+     text-align: center;
+     position: relative;
+     padding-bottom: 10%;    
+     display: flex; 
+     justify-content: center;
+}
+.box-1{
+   
+}
+.box-2{
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 25%;
+    margin-top: 0%;
+    height: 122ch;
+    position: relative;
+}
+.box-3{
+    width: 20%;
+
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 25%;
+    margin-top: 0%;
+    height: 120ch;
+    position: relative;
+}
 }
 .link-button{
     text-decoration: none;
@@ -29,4 +99,20 @@ padding-right: 5%;
     color: white;
     font-weight: 400;
     border-radius: 5px;
+}
+.third-banner{
+margin-top: 20%;
+margin: 0;
+padding-top: 20;%
+text-align: left;
+}
+
+.fourth-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    margin-top: -20%;
+}
+.parent{
+    display: flex;
+    justify-content: center;
 }
