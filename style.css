@@ -1,19 +1,21 @@
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font size: 40px;
-    margin: 0%;
+    margin= 0
 }
 h1{
-    font-size: 40px;
-    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 h2{
     font-size: 20px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
 .pink-color{
     color: deeppink;
+}
+section{
+    display: flex;
 }
 .flexible-container{
     display: flex;
@@ -28,13 +30,12 @@ h2{
     font-size: 0.60cm;
 }
 .half-width{
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-    padding-bottom: 25%;
-    margin-top: 0%;
-    position: relative;
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width2{
+    width: 50%;
+    padding-left: 5%;  
 }
 .developer-img{
     width: 70%;
@@ -56,48 +57,24 @@ h2{
     background-position: left;
 }
 .second-banner{
-    text-align: center;
-    margin-top: -25%;
+    justify-content: center;
+    margin-top: 0%;
+
 }
 .half-width img{
-     width: 60%;
+     width: 80%;
      text-align: center;
      position: relative;
      padding-bottom: 10%;    
      display: flex; 
      justify-content: center;
 }
-.box-1{
-   
-}
-.box-2{
-    width: 20%;
-    padding-left: 5%;
-    padding-right: 10%;
-    padding-top: 3%;
-    padding-bottom: 25%;
-    margin-top: 0%;
-    height: 122ch;
-    position: relative;
-}
-.box-3{
-    width: 20%;
-
-    padding-left: 5%;
-    padding-right: 10%;
-    padding-top: 3%;
-    padding-bottom: 25%;
-    margin-top: 0%;
-    height: 120ch;
-    position: relative;
-}
-}
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
-    padding: 10px 20px;
+    background-image: linear-gradient(orange, tomato);
     color: white;
-    font-weight: 400;
+    font-family: 700;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 .third-banner{
@@ -109,10 +86,7 @@ text-align: left;
 
 .fourth-banner{
     background-image: url(images/shapes/shape-1.png);
+    background-position-y: 50px;
+    background-size: 150px;
     background-repeat: no-repeat;
-    margin-top: -20%;
-}
-.parent{
-    display: flex;
-    justify-content: center;
 }
